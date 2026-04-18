@@ -19,7 +19,8 @@
 !/SFT_rollback_no_longtail/
 !/SFT/
 /SFT/*
-!/mnt/hdd/jiazy/eye_project/SFT/splits_qc_clean
+!/SFT/splits_qc_clean
+/SFT/splits_qc_clean/train.tail_aug.images
 
 # ==========================================
 # 3. 针对特定文件夹的细节控制
