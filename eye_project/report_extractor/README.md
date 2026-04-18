@@ -1,0 +1,1 @@
+conda install nvidia::cudnn cuda-version=11.8 -c nvidia

@@ -1,0 +1,13 @@
+input_csv: /mnt/hdd/jiazy/eye_project/eye_project/trans_txt/description.cleaned.csv
+checkpoint: /mnt/hdd/jiazy/eye_project/diabetic-retinopathy-detection/runs/eyeq_binary_resnet50/eyeq_crop/best.pt
+checkpoint_epoch: 12
+image_col: img_path
+decision_threshold: 0.85
+apply_eyeq_preprocess: False
+total_rows: 55333
+kept_rows: 36263
+rejected_unusable: 19070
+rejected_missing_image: 0
+total_rejected: 19070
+output_csv: /mnt/hdd/jiazy/eye_project/eye_project/trans_txt/description.cleaned.qc.csv
+reject_csv: /mnt/hdd/jiazy/eye_project/eye_project/trans_txt/description.cleaned.qc.reject.csv
