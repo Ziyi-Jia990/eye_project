@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "input_split": "/mnt/hdd/jiazy/eye_project/SFT/splits_qc_clean/train.csv",
+  "prompt_path": "/mnt/hdd/jiazy/eye_project/SFT/prompt.txt",
+  "model_name_or_path": "Qwen/Qwen3.5-9B-Base",
+  "adapter_path": "/mnt/hdd/jiazy/eye_project/SFT/outputs/qwen_retina_lora_stage1_plain_eval_loss",
+  "max_samples": null,
+  "max_new_tokens": 160,
+  "num_beams": 1,
+  "dtype": "bf16",
+  "max_image_side": 1024,
+  "num_shards": 2
+}
