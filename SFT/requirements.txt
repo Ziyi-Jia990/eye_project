@@ -1,0 +1,9 @@
+torch>=2.1
+transformers>=4.46
+accelerate>=0.33
+peft>=0.12
+trl>=0.25.0
+pandas>=2.0
+bitsandbytes>=0.43
+Pillow>=10.0
+mistral-common[image]>=1.10.0

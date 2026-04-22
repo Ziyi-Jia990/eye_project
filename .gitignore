@@ -19,6 +19,10 @@
 !/SFT_rollback_no_longtail/
 !/SFT/
 /SFT/*
+!/SFT/*.py
+!/SFT/*.txt
+!/SFT/*.md
+
 !/SFT/splits_qc_clean
 /SFT/splits_qc_clean/train.tail_aug.images
 
